@@ -1,7 +1,7 @@
----
-sidebar: true
-order: 2
-published: true
+---	
+sidebar: true	
+order: 2	
+published: true	
 ---
 # Unofficial Talon Docs
 
@@ -38,8 +38,8 @@ insert code fragment:
     # A single command can perform a sequence of actions.
     insert("``````")
     key(left left left)
-    key(shift-enter)
-    key(shift-enter)
+    # the number of times the key should be pressed can be specified after a colon
+    key(shift-enter:2)
     key(up)
 
 # This says how to implement the actions app.tab_next and app.tab_previous.
